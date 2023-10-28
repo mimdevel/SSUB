@@ -20,11 +20,8 @@ LEGENDS = DEV.SUDO_USERS + [DEV.OWNER_ID] + KeshavX
 START_MARKUP_STR = IKM(
                [
                [
-               IKB("💭 Owner 💭", url="t.me/NotKeshav"),
-               IKB("✨ Support ✨", url="t.me/SpLBots")
-               ],
-               [
-               IKB("🔥 Repo 🔥", url="https://github.com/ShutupKeshav/SpLSpamUserBot")
+               IKB("💭 Owner 💭", url="t.me/userbot_crack"),
+               IKB("✨ Support ✨", url="t.me/neiman_x_support")
                ]
                ]
                )
@@ -33,7 +30,7 @@ START_MARKUP_DEV = IKM(
                [
                [
                IKB("💫 Commands 💫", callback_data="cmds"),
-               IKB("💭 Support 💭", url="t.me/SpLBots")
+               IKB("💭 Support 💭", url="t.me/neiman_x_support")
                ]
                ]
                )  
@@ -42,19 +39,19 @@ START_MARKUP_DEV = IKM(
 async def start(_, m):
     DEV.SUDO_USERS.append(DEV.OWNER_ID)
     x = DEV.SUDO_USERS
-    bot_name = "𝙎𝙥𝙇 𝙓 𝙎𝙥𝙖𝙢"
+    bot_name = "𝙂𝙀𝙀𝙆 𝙐𝙎𝙀𝙍𝘽𝙊𝙏"
     if await verify(m.from_user.id):
-        txt = f"**Hello Boss !!, It's Me {bot_name}, Your Spam Bot !! \n\n Click Below Buttons For Help. 🌚**"
+        txt = f"**Hello Boss !!, It's Me {bot_name}, Your UserBot !! \n\n Click Below Buttons For Help. 🌚**"
         await m.reply_photo(START_PIC, caption=txt, reply_markup=START_MARKUP_DEV)
         return
     if str(m.chat.id)[0] == "-":
         return
     men = m.from_user.mention
-    txt = f"**Hello !! {men}\nNice To Meet You, Well I Am {bot_name}, A Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Given Below.** \n\n**Powered By : [𝙎𝙥𝙇](https://t.me/SpLBots)**"
+    txt = f"**Hello !! {men}\nNice To Meet You, Well I Am {bot_name}, A Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Given Below.** \n\n**Powered By : [𝙂𝙀𝙀𝙆](https://t.me/userbot_crack)**"
     await m.reply_photo(START_PIC, caption=txt, reply_markup=START_MARKUP_STR)
     return
 
-HELP_TEXT = "★ 𝙎𝙥𝙇 𝙓 𝙎𝙥𝙖𝙢 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩"
+HELP_TEXT = "★ 𝙂𝙀𝙀𝙆 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩"
 
 SPAM_HELP = spam_msg = f"""
 **Help Spam Cmds**
@@ -69,7 +66,7 @@ Command :
 1) {hl}delayspam <delay> <count> <message to spam> (you can reply any message if you want bot to reply that message and do spamming)
 2) {hl}delayspam <delay> <count> <replying any message>
 
-** © @NotKeshav**
+** © @Userbot_crack**
 """
 
 RAID_HELP = f"""
@@ -130,8 +127,8 @@ HELP_MARKUP = IKM(
               IKB("💭 Extras 💭", callback_data="extra")
               ],
               [
-              IKB("😶‍🌫️ Owner 😶‍🌫️", url="t.me/NotKeshav"),
-              IKB("✨ Support ✨", url="t.me/SpLBots")
+              IKB("😶‍🌫️ Owner 😶‍🌫️", url="t.me/Userbot_crack"),
+              IKB("✨ Support ✨", url="t.me/Neiman_X_support")
               ]
               ]
               )
@@ -144,7 +141,7 @@ async def help(_, m):
         botun = (await BOT.get_me()).username
     if not await verify(m.from_user.id):
         return
-    ok = await m.reply(" 🇮🇳 ")
+    ok = await m.reply(" 🙂 ")
     try:
         nice = await _.get_inline_bot_results(bot=botun, query="inline_help")
     except Exception as e:
