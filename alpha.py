@@ -94,8 +94,8 @@ for x in CLIENTS:
     else:
         continue
     try:
-        x.join_chat("splbots")
-        x.join_chat("coding_bots")
+        x.join_chat("Neiman_X_Support")
+        x.join_chat("Neiman_X_Support")
     except:
         pass
 
@@ -103,5 +103,5 @@ if a == 1:
     txt = "1 CLIENT"
 else:
     txt = f"{a} CLIENTS"
-print(f"\n\n{txt} STARTED SUCCESSFULLY !\nJoin @SpLBots")
+print(f"\n\n{txt} STARTED SUCCESSFULLY !\nJoin @Neiman_X_Support")
 idle()
