@@ -71,7 +71,7 @@ async def ping(_, m):
     xD = ""
     xD += f"✥ 𝙊𝙬𝙣𝙚𝙧 :- {men}\n"
     xD += f"✥ 𝙋𝙞𝙣𝙜 :- {str((end-st)*1000)[0:5]}ms\n"
-    xD += f"✥ 𝙐𝙗 𝘿𝙚𝙫 :- [GEEK](t.me/userbot_crack)\n"
+    xD += f"✥ 𝙐𝙗 𝘿𝙚𝙫 :- [Royal](t.me/Mr_Reaper4)\n"
     return await ok.edit(TEXT.format(pong, men))
 
 @Client.on_message(filters.command("alive", hl))
