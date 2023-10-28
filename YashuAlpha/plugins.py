@@ -20,7 +20,7 @@ LEGENDS = DEV.SUDO_USERS + [DEV.OWNER_ID] + KeshavX
 START_MARKUP_STR = IKM(
                [
                [
-               IKB("💭 Owner 💭", url="t.me/userbot_crack"),
+               IKB("💭 Owner 💭", url="t.me/Mr_Reaper4"),
                IKB("✨ Support ✨", url="t.me/neiman_x_support")
                ]
                ]
@@ -47,7 +47,7 @@ async def start(_, m):
     if str(m.chat.id)[0] == "-":
         return
     men = m.from_user.mention
-    txt = f"**Hello !! {men}\nNice To Meet You, Well I Am {bot_name}, A Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Given Below.** \n\n**Powered By : [𝙂𝙀𝙀𝙆](https://t.me/userbot_crack)**"
+    txt = f"**Hello !! {men}\nNice To Meet You, Well I Am {bot_name}, A Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Given Below.** \n\n**Powered By : [𝙂𝙀𝙀𝙆](https://t.me/Mr_Reaper4)**"
     await m.reply_photo(START_PIC, caption=txt, reply_markup=START_MARKUP_STR)
     return
 
@@ -66,7 +66,7 @@ Command :
 1) {hl}delayspam <delay> <count> <message to spam> (you can reply any message if you want bot to reply that message and do spamming)
 2) {hl}delayspam <delay> <count> <replying any message>
 
-** © @Userbot_crack**
+** © @Mr_Reaper4**
 """
 
 RAID_HELP = f"""
@@ -88,7 +88,7 @@ Command :
 2) {hl}dreplyraid <username>
 
 
-**© @NotKeshav**
+**© @Mr_Reaper4**
 """
 
 EXTRA_HELP = f"""
@@ -114,7 +114,7 @@ Command :
 1) {hl}Join <group/chat id>
 2) {hl}Join : Type in the Group bots will join that group.
 
-**© @NotKeshav**
+**© @Mr_Reaper4**
 """
 
 HELP_MARKUP = IKM(
@@ -127,7 +127,7 @@ HELP_MARKUP = IKM(
               IKB("💭 Extras 💭", callback_data="extra")
               ],
               [
-              IKB("😶‍🌫️ Owner 😶‍🌫️", url="t.me/Userbot_crack"),
+              IKB("😶‍🌫️ Owner 😶‍🌫️", url="t.me/Mr_Reaper4"),
               IKB("✨ Support ✨", url="t.me/Neiman_X_support")
               ]
               ]
