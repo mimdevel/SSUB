@@ -39,7 +39,7 @@ START_MARKUP_DEV = IKM(
 async def start(_, m):
     DEV.SUDO_USERS.append(DEV.OWNER_ID)
     x = DEV.SUDO_USERS
-    bot_name = "𝙂𝙀𝙀𝙆 𝙐𝙎𝙀𝙍𝘽𝙊𝙏"
+    bot_name = "𝙍𝙊𝙔𝘼𝙇 𝙐𝙎𝙀𝙍𝘽𝙊𝙏"
     if await verify(m.from_user.id):
         txt = f"**Hello Boss !!, It's Me {bot_name}, Your UserBot !! \n\n Click Below Buttons For Help. 🌚**"
         await m.reply_photo(START_PIC, caption=txt, reply_markup=START_MARKUP_DEV)
@@ -51,7 +51,7 @@ async def start(_, m):
     await m.reply_photo(START_PIC, caption=txt, reply_markup=START_MARKUP_STR)
     return
 
-HELP_TEXT = "★ 𝙂𝙀𝙀𝙆 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩"
+HELP_TEXT = "★ 𝙍𝙊𝙔𝘼𝙇 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩"
 
 SPAM_HELP = spam_msg = f"""
 **Help Spam Cmds**
