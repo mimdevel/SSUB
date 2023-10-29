@@ -12,7 +12,7 @@ hl = STUFF.COMMAND_HANDLER
 
 form = """
 
-Geek User Bot 
+Royal Bot 
 
 ┏━━━━━━✦❘༻༺❘✦━━━━━━┓
 ┃☁️ 𝙍𝙊𝙔𝘼𝙇 𝘽𝙊𝙏 : V1
@@ -31,7 +31,7 @@ TEXT = """
 💞Pong💞
 
    🔸️ {}
-   🔹️ 𝙼𝚢 𝙼𝚊𝚜𝚝𝚎𝚛 ~ {}
+   🔹️ My Devloper ~ {}
 
 """
 
